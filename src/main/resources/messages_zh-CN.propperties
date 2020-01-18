@@ -1,0 +1,9 @@
+Size.mockUser.age=年龄必须在{0}/{1}之间。
+Size.mockUser.name=名字不能空的,长度在在{0}/{1}之间。
+Email.mockUser.email=邮箱不合法
+
+#Generic annotation class messages
+Email=Email address is not valid
+NotNull=This is a required field
+NotEmpty=This is a required field
+Past=Date should be Past
