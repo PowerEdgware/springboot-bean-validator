@@ -21,3 +21,23 @@
       <scope>compile</scope>
  </dependency>
 ```
+
+添加自定义messageSource实现自定义消息模板：  
+
+```
+//	@Bean
+//	public MessageSource messageSource() {
+//		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
+//		messageSource.setBasenames("classpath:messages");
+//		messageSource.setDefaultEncoding("UTF-8");
+//		messageSource.setCacheSeconds(60);
+//		return messageSource;
+//	}
+//
+//	@Bean
+//	public LocalValidatorFactoryBean defaultValidator() {
+//		LocalValidatorFactoryBean factoryBean = new LocalValidatorFactoryBean();
+//		factoryBean.setValidationMessageSource(messageSource());
+//		return factoryBean;
+//	}
+```
